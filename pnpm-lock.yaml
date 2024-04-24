@@ -3365,8 +3365,8 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3
       hono:
-        specifier: ^3.12.2
-        version: 3.12.12
+        specifier: ^4.2.7
+        version: 4.2.7
       isbot:
         specifier: 3.8.0
         version: 3.8.0
@@ -19710,7 +19710,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.4
       '@jest/transform': 29.5.0
-      '@types/babel__core': 7.20.5
+      '@types/babel__core': 7.20.3
       babel-plugin-istanbul: 6.1.1
       babel-preset-jest: 29.5.0(@babel/core@7.24.4)
       chalk: 4.1.2
@@ -24582,8 +24582,8 @@ packages:
       parse-passwd: 1.0.0
     dev: true
 
-  /hono@3.12.12:
-    resolution: {integrity: sha512-5IAMJOXfpA5nT+K0MNjClchzz0IhBHs2Szl7WFAhrFOsbtQsYmNynFyJRg/a3IPsmCfxcrf8txUGiNShXpK5Rg==}
+  /hono@4.2.7:
+    resolution: {integrity: sha512-k1xHi86tJnRIVvqhFMBDGFKJ8r5O+bEsT4P59ZK59r0F300Xd910/r237inVfuT/VmE86RQQffX4OYNda6dLXw==}
     engines: {node: '>=16.0.0'}
     dev: false
 
