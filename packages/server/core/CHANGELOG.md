@@ -1,5 +1,23 @@
 # @modern-js/server-plugin
 
+## 2.49.3
+
+### Patch Changes
+
+- d936fe3: fix: serverBase may be undefined when get renderHandler
+  fix: 当获得 renderHandler 时, serverBase 有可能是 undefined
+- 0c4929f: fix: add onFallback for renderHandler
+  fix: 给 renderHandler 增加 onFallback 回调
+- 1b594a5: fix: we should not log error when bundle is not exists
+  fix: 我们不应该打印错误日志，当 bundle 不存在时
+- 4d728d2: fix: server middleware response lose some methods
+  fix: server middleware response 丢失一些方法
+- aa3a1dc: fix: log error when load bundle failed
+  fix: 打印错误日志当 bundle 加载错误时
+  - @modern-js/plugin@2.49.3
+  - @modern-js/runtime-utils@2.49.3
+  - @modern-js/utils@2.49.3
+
 ## 2.49.2
 
 ### Patch Changes
